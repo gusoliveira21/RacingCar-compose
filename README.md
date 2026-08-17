@@ -1,25 +1,46 @@
-# RacingCar-compose
-A racing car game implementation using Jetpack Compose
+# Mobile Racing Car Compose
 
-## Milestones
-- [x] Blocker unique positioning
-- [x] Movement via accelerometer
-- [x] Collision detection
-- [x] Highscore
-- [x] Sounds
-- [ ] New game modes (e.g. endless, mission)
-- [ ] Dynamic game setting
-- [ ] power-ups (e.g. booster, shield)
-- [ ] Achievements
-- [ ] Online leaderboard
+Lorem ipsum.
 
-## Showcase
+## Exemplos de commits
 
- <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/61078796/266766492-1da7eca3-4b9d-4698-9cd1-c2da689fc0be.jpg" width="40%" >
+```
+git add . && git commit -m ":rocket: Initial commit." && git push
+git add . && git commit -m ":building_construction: Adicionado arquitetura inicial do projeto." && git push
+git add . && git commit -m ":building_construction: Atualizado arquitetura do projeto." && git push
+git add . && git commit -m ":memo: Atualizada documentação do projeto" && git push
+git add . && git commit -m ":memo: Atualizada documentação do código" && git push
+git add . && git commit -m ":white_check_mark: Adicionado funcionalidade xyz." && git push
+git add . && git commit -m ":wrench: Corrigido uso do xyz." && git push
+git add . && git commit -m ":wrench: Otimizado uso do xyz." && git push
+git add . && git commit -m ":heavy_minus_sign: Removido xyz." && git push
+git add . && git commit -m ":memo: Ajustadas importações do projeto." && git push
+git add . && git commit -m ":arrow_up: Atualizadas dependências." && git push
+git add . && git commit -m ":arrow_down: Removidas dependências." && git push
+git add . && git commit -m ":wastebasket: Removido código não utilizado." && git push
+git add . && git commit -m ":test_tube: Adicionado teste da funcionalidade xyz." && git push
+```
 
+## License
 
-https://github.com/behnawwm/RacingCar-compose/assets/61078796/08babe6e-d300-4d63-822e-67dde043d013
+MIT License
 
-## Architecture
-![image](https://github.com/behnawwm/RacingCar-compose/assets/61078796/7ca03ae1-86ef-47a5-97bc-4e5d707a07e3)
+Copyright (c) 2026 William Franco and Gustavo Oliveira
 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
