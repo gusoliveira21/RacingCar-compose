@@ -1,6 +1,30 @@
 # Mobile Racing Car Compose
 
-Lorem ipsum.
+Jogo de corrida em faixas feito com Jetpack Compose. É a nova versão do RacingCar-compose, reorganizada em MVVM com injeção de dependências via Koin.
+
+## Stack
+
+- Kotlin e Jetpack Compose (Material 3)
+- Navigation Compose
+- DataStore (highscore)
+- Koin (IoC)
+- JVM 21
+
+## Arquitetura
+
+O app segue organização por feature. A feature `game` contém `models`, `repositories`, `view_models`, `views` e `routes`. O NavHost do aplicativo fica em `src/routes`, e o tema Compose em `design/`.
+
+## Funcionalidades
+
+- Controle por swipe entre as faixas
+- Bloqueadores, detecção de colisão e penalidade de pontuação
+- Score e highscore persistido
+- Sons de impacto, marco e novo recorde, além de música de fundo
+
+## Testes e CI
+
+- Testes unitários do ViewModel e do estado do jogo (`./gradlew :app:testDebugUnitTest`)
+- GitHub Actions em todo `push` (`.github/workflows/android-ci.yml`), rodando os testes unitários
 
 ## Exemplos de commits
 
